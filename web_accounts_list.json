@@ -342,7 +342,7 @@
          "known_accounts" : ["john","av2learner"],
          "category" : "bookmarks",
          "valid" : true,
-         "comments" : ["verified 20160502 - WebBreacher"]
+         "comments" : 1605["verified 2002 - WebBreacher"]
       },
       {
          "name" : "DeviantArt",
@@ -355,6 +355,18 @@
          "category" : "images",
          "valid" : true,
          "comments" : ["verified 10/7/2015 - WebBreacher"]
+      },
+      {
+         "name" : "devRant",
+         "check_uri" : "https://devrant.com/users/{account}",
+         "account_existence_code" : "200",
+         "account_existence_string" : "Joined devRant on",
+         "account_missing_string" : "Feed",
+         "account_missing_code" : "302",
+         "known_accounts" : ["dfox", "trogus"],
+         "category" : "social",
+         "valid" : true,
+         "comments" : []
       },
       {
          "name" : "diigo",
